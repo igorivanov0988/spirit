@@ -1,0 +1,740 @@
+/*========== Шрифты ==========*/
+/*========== Главный Экран ==========*/
+
+header {
+	background-color: black;
+	height: 100vh;
+}
+.logotype{	
+	margin-top: 57px;
+	width: 86px;
+	height: 18px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.logotype p {
+	margin-left: 65px;
+}
+#top_nav {
+	width: 100%;
+	height: 110px;
+	background-color: black;
+        /*высота шапки в пикселях*/
+   	position: fixed;
+  	z-index: 100;
+}
+.main_nav {
+	margin-left: 100px;
+}
+.menu {	
+	margin-top: 57px;
+	width: 536px;
+	height: 10px;
+}
+.menu > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menu > li > a:hover {
+	color: #fcac45;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 100px;
+    top: 80px;
+    right: 630px;
+    background-color: ;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+    text-decoration: none;   
+    color: #fcac45;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.welcome {
+	margin-top: 300px;
+}
+.welcome > h1 {
+	color: #999999;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-family: "Open Sans Light";
+	font-weight: 300;
+	letter-spacing: -2.2px;
+}
+.welcome > h1 > span {
+	color: #fcac45;
+	font-family: "Open Sans";
+	font-weight: 700;
+	letter-spacing: -2.2px;
+}
+.welcome > p {
+	margin-top: 20px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.welcome > p > span {
+	text-decoration: underline;
+}
+.arrow {
+	margin-top: 300px;
+}
+
+/*===================== Шрифты =====================*/
+
+.mac > img {
+	margin-top: 102px;
+}
+.about {
+	margin-top: 102px;
+}
+.about > p {
+	margin-left: 100px;	
+	height: 14px;
+	color: #636363;
+	font-family: "Open Sans";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 37.3px;
+	text-transform: uppercase;
+}
+.about  h2 {
+	margin-left: 100px;
+	height: 24px;
+	color: #222222;
+	font-family: "Open Sans";
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 37.3px;
+	text-transform: uppercase;
+}
+.about > h2 > span {
+	font-weight: 700;
+	letter-spacing: -0.68px;
+}
+.about > img {
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.list > p {
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.list > ul {
+	padding: 0;
+	margin-left: 115px;	
+	margin-top: 45px;
+}
+.uor_work > button {
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	width: 192px;
+	height: 45px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	background-color: #fcac45;
+	font-family: "Open Sans - Semibold";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 33.3px;
+	text-transform: uppercase;
+}
+.uor_work button:hover {
+	background-color: #fff;	
+}
+.uor_work a:hover {
+	color: #fcac45;
+	text-decoration: none;
+}
+/*===================== Шрифты =====================*/
+
+.section_three {
+	margin: 0;	
+	background-color: black;
+}
+.our_team > h1 {
+	margin-top: 100px;
+	height: 31px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.our_team > h1 > span {
+	font-family: "Open Sans Semi Bold";
+	font-weight: 600;	
+}
+.shape_one {
+	margin-top: 30px;
+}
+.shape_two {
+	margin-top: 10px;
+}
+.team {
+	margin-top: 275px;	
+}
+.name {
+	margin-top: 22px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	line-height: 24px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.specialization {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 16px;
+	line-height: 24px;
+}
+.quote {
+	margin-top: 35px; 
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*===================== Шрифты =====================*/
+.section_four {
+	height: 620;
+}
+.our_services > h1 {
+	margin-top: 100px;
+	color: #222222;
+	font-family: "Open Sans Light";
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.our_services > h1 > span {
+	font-family: "Open Sans - Semibold";
+	font-weight: 600;
+}
+.our_services_text > p {
+	margin-top: 40px;
+	color: #6c6c6c;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+}
+.categories {
+	margin-top: 388px;
+    position:relative;
+ }
+ .categories .overlay_one {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -27px;
+}
+.categories .overlay_two {
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -17px;
+}
+.categories .overlay_tree {
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -27px;	
+}
+.categories .overlay_four {
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    margin: -155px 0 0 -24px;
+}
+.categories h3 {
+	margin-top: 30px;
+	color: #222222;
+	font-family: "Open Sans - Semibold";
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.categories p {
+	margin-top: 20px;
+	margin-bottom: 100px;
+	color: #222222;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+/*===================== Шрифты =====================*/
+.the_brand{
+  	background-color: black;
+}
+.the_brand_picture{
+	display: flex;
+	justify-content: space-around;
+	margin: 100px 270px 100px 270px;
+}
+.our_clients h1 {
+	margin-top: 101px;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.our_clients h1 span {
+	font-family: "Open Sans - Semibold";
+	font-weight: 600;
+}
+
+/*===================== Шрифты =====================*/
+
+.our_work h1 {
+	margin-top: 100px;
+	color: #222222;
+	font-family: "Open Sans";
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.our_work h1 span {
+	font-family: "Open Sans - Semibold";
+	font-weight: 600;
+}
+.filter p {
+	margin-left: 22px;
+	margin-top: 116px;
+	margin-bottom: 50px; 
+}
+.dop_menu {
+	margin-left: 241px;
+	margin-top: 116px;
+	margin-bottom: 50px;
+}
+.pictures {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+/*===================== Шрифты =====================*/
+
+.section_seven {
+	background-color: black;
+	height: 560px;
+	margin-top: 100px;
+}
+.our_clients h1 {
+	margin-top: 100px;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 44px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.our_clients span {
+	font-family: "Open Sans";
+	font-weight: 300;
+}
+.our_clients_text p {
+	margin-top: 105px;
+	color: #e7e7e7;
+	font-family: "Open Sans - Semibold";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.our_clients_name p {
+	color: #b2b2b2;
+font-family: "Open Sans - Semibold";
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+}
+.our_clients_name {
+	margin-top: 50px;
+}
+
+/*===================== Шрифты =====================*/
+
+.section_eight {
+	margin-top: 100px;
+}
+.feel_free h1 {
+	color: #222222;
+	font-family: "Open Sans - Light";
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.feel_free h1 span {
+	font-family: "Open Sans - Semibold";
+	font-weight: 600;
+}
+.feel_free_text p {
+	margin-top: 45px;
+	color: #6c6c6c;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+}
+.contacts {
+	margin-top: 95px;
+}
+.contacts p {
+	color: #636363;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.contacts p span {
+	color: #db0000;
+}
+.block_name p {
+	width: 101px;
+	margin-left: 167px;
+}
+.block_name input {
+	margin-left: 120px;
+	height: 35px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	background-color: #ffffff;
+}
+.block_email p {
+	width: 101px;
+	margin-left: 70px;
+}
+.block_email input {
+	margin-right: 120px;
+	height: 35px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	background-color: #ffffff;
+}
+.block_massage p {
+	width: 101px;
+	margin-left: 173px;
+}
+.block_massage {
+	margin-top: 30px;
+}
+.block_massage input {
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	background-color: #ffffff;
+}
+.section_eight_button button {
+	margin-top: 32px;
+	margin-left: 558px;
+	width: 165px;
+	height: 40px;
+	background-color: #fcac45;
+	color: #ffffff;
+	font-family: "Open Sans - Semibold";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+/*===================== Шрифты =====================*/
+
+.section_nine {
+	background-color: black;
+	margin-top: 105px;
+	height: 150px;
+}
+.mi_contacts h4 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #b2b2b2;
+	font-family: "Open Sans";
+	font-weight: 400;
+	line-height: 54px;
+	text-transform: uppercase;
+}   
+.mi_contacts a {
+	color: #b2b2b2;
+	font-family: "Open Sans";
+	font-weight: 400;
+	line-height: 54px;
+	font-size: 20px;
+}
+.mi_contacts a:hover {
+	color: #fcac45;
+	text-decoration: none;
+}
+.icons {
+	margin-top: 60px;
+	font-size: 20px; 
+}
+.icons a:hover {
+	color: #fcac45;
+	text-decoration: none;
+}
+.city h4 {
+	margin-top: 20px;
+	color: #b2b2b2;
+	font-family: "Open Sans";
+	font-weight: 400;
+	line-height: 54px;
+	
+}
+
+/*===================== Шрифты =====================*/
+
+.section_eight_button button {
+	border-radius: 5px;
+}
+.section_eight_button button:hover {
+	background-color: #fff;
+	color: #fcac45;
+}
+/*===================== Шрифты =====================*/
+/*===================== Шрифты =====================*/
+/*===================== Шрифты =====================*/
+
+/*========== Дроп-меню ==========*/
+
+.fa {
+	color: #ffffff;
+}
+.fa:hover {
+	color:#fcac45; 
+}
+.dropdown-menu a {
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+/*===================== Модальное окно =====================*/
+
+
+.modal {
+	position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* цвет фона */
+    z-index: 10500;
+    opacity: 1; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* при отображении модального окно */
+.modal:target {
+	display: block;
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto; /* для отображения модального окна по центру */
+  }
+}
+/* свойства для блока, содержащего контент модального окна */ 
+.modal-content {
+    position: relative;
+    top: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;    
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fcac45;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #fcac45;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  	position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
+
+
+
+/*----- Тест модалки -----*/
+
+/*========== Шрифты ==========*/
+
+/* ===================== Dropdown Button ===================== */
+
+
+
+
+/*========== Шрифты ==========*/
+/*========== Шрифты ==========*/
+/*========== Подвал ==========*/
+/*========== Всплывающие окна ==========*/
+/*========== Адаптив ==========*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: auto;
+	}
+	.container h1 {
+		font-size: 40px;
+	}
+	.about h2 {
+		font-size: 25px;
+	}
+	.pictures img:nth-child(1) {
+		display: none;
+	}
+	.the_brand_picture {
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}
+	.the_brand_picture img {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.container h1 {
+		font-size: 35px;
+	}
+	.about h2 {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.pictures img:nth-child(2) {
+		display: none;
+	}
+	.team {
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}
+	.categories {
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}	
+
+}
